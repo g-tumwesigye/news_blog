@@ -1,0 +1,40 @@
+name: news_pulse
+description: "A Flutter application for fetching and displaying news using NewsAPI."
+
+publish_to: 'none'
+
+version: 1.0.0+1
+
+environment:
+  sdk: ^3.5.2
+
+dependencies:
+  flutter:
+    sdk: flutter
+  http: 1.2.2
+  provider: ^6.0.0
+  cupertino_icons: ^1.0.8
+  url_launcher: ^6.3.1
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^4.0.0
+
+flutter:
+  assets:
+    - assets/images/back.png
+    - assets/images/forward.png
+    - assets/images/welcome.jpg
+    - assets/images/new1.jpg
+    - assets/images/new2.jpg
+    - assets/images/new3.png
+    - assets/images/logo.png
+    - assets/images/logo2.png
+
+  fonts:
+    - family: Poppins
+      fonts:
+        - asset: assets/fonts/Poppins-ExtraBold.ttf
+
+  uses-material-design: true
