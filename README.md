@@ -1,6 +1,6 @@
 # NewsPulse Flutter Mobile App
 
-**NewsPulse** is a dynamic Flutter mobile application that brings the latest news directly to your fingertips. The app fetches breaking news headlines and articles from NewsAPI and displays them in an engaging and user-friendly interface. It features multiple screens, including a welcome page, a news feed, and detailed article views.
+**NewsPulse** is a mobile application built using Flutter that provides real-time news updates. The app fetches breaking news headlines and articles from [NewsAPI](https://newsapi.org/) and displays them in an engaging and user-friendly interface. It features multiple screens, including a welcome page, a news feed, and detailed article views.
 
 ## Features
 
