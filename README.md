@@ -5,7 +5,7 @@
 ## Features
 
 - **Welcome Screen**: A visually engaging screen introducing the app with a "Get Started" button.
-- **News Feed**: Displays the latest headlines and articles using data fetched from an external API (NewsAPI).
+- **News Feed**: Displays the latest headlines and articles using data fetched from (NewsAPI).
 - **Article Details**: Users can view full article details by tapping on a news item.
 - **Responsive UI**: Adaptive layouts for various screen sizes to ensure a smooth user experience across different devices.
 - **Smooth Navigation**: Seamless navigation between screens using Flutter's routing system.
