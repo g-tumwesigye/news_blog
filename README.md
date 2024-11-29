@@ -10,21 +10,6 @@
 - **Responsive UI**: Adaptive layouts for various screen sizes to ensure a smooth user experience across different devices.
 - **Smooth Navigation**: Seamless navigation between screens using Flutter's routing system.
 
-## Screenshots
-
-### Home Screen
-![Home Screen](assets/images/screenshots/home_screen.png)
-
-### Article Screen
-![Article Screen](assets/images/screenshots/article_screen.png)
-
-### Full Article Screen
-![Full Article Screen](assets/images/screenshots/full_article_screen.png)
-
-### Additional Screens
-![Screen 2](assets/images/screenshots/screen2.png)  
-![Screen 3](assets/images/screenshots/screen3.png)
-
 ## Installation
 
 To get started with **NewsPulse**, follow these steps:
