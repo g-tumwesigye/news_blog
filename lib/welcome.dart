@@ -6,7 +6,7 @@ class WelcomePage extends StatelessWidget {
     return Scaffold(
       body: Stack(
         children: [
-          // Image at the Background
+          // the background image
           Container(
             decoration: BoxDecoration(
               image: DecorationImage(

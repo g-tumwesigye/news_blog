@@ -5,7 +5,7 @@
 ## Features
 
 - **Welcome Screen**: A visually engaging screen introducing the app with a "Get Started" button.
-- **News Feed**: Displays the latest headlines and articles using data fetched from (NewsAPI).
+- **News Feed**: Displays the latest headlines and articles using data fetched from NewsAPI.
 - **Article Details**: Users can view full article details by tapping on a news item.
 - **Responsive UI**: Adaptive layouts for various screen sizes to ensure a smooth user experience across different devices.
 - **Smooth Navigation**: Seamless navigation between screens using Flutter's routing system.
@@ -16,11 +16,11 @@ To get started with **NewsPulse**, follow these steps:
 
 1. Clone the repository:
     ```bash
-    git clone https://github.com/g-tumwesigye/news_pulse.git
+    git clone https://github.com/g-tumwesigye/news_blog.git
     ```
 2. Navigate into the project directory:
     ```bash
-    cd news_pulse
+    cd news_blog
     ```
 3. Install dependencies:
     ```bash
@@ -31,6 +31,14 @@ To get started with **NewsPulse**, follow these steps:
     ```bash
     flutter run
     ```
+
+## Demo Video
+
+Watch the **NewsPulse** app demo here: [YouTube Demo](https://www.youtube.com/watch?v=RAc1alk2V50)
+
+## Repository
+
+Explore the source code on GitHub: [NewsPulse Repository](https://github.com/g-tumwesigye/news_blog)
 
 ## Dependencies
 
@@ -45,29 +53,31 @@ Contributions are welcome! To contribute to this project:
 1. Fork the repository.
 2. Create a new branch:
     ```bash
-    git checkout -b feature/YourFeature
+    git checkout 
     ```
 3. Make your changes and commit them:
     ```bash
-    git commit -m 'Add a feature or fix bug'
+    git commit 
     ```
 4. Push to the branch:
     ```bash
-    git push origin feature/YourFeature
+    git push 
     ```
 5. Open a pull request to the main repository.
 
 ## Acknowledgments
 
 - **NewsAPI**: The source of news data for this project.
-- **Flutter**: A powerful open-source mobile framework used for building the app.
+- **Flutter**: An open-source mobile framework used for building the app.
 
-Author
+---
 
-© 2024 Geofrey Tumwesigye
+**Author**  
 
-Software Engineering student at African Leadership University.
+© 2024 Geofrey Tumwesigye  
 
-Email: g.tumwesigy@alustudent.com
+Software Engineering student at African Leadership University.  
 
-GitHub: g-tumwesigye
+Email: g.tumwesigy@alustudent.com  
+
+GitHub: [g-tumwesigye](https://github.com/g-tumwesigye)

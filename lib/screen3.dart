@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 import 'services/news_api_service.dart';
-import 'article_detail_screen.dart'; // Import the new screen
+import 'article_detail_screen.dart';
 
 class Screen3 extends StatefulWidget {
   @override
@@ -25,7 +25,7 @@ class _Screen3State extends State<Screen3> {
         title: Row(
           children: [
             Image.asset(
-              'assets/images/logo2.png', // Replace with your actual icon path
+              'assets/images/logo2.png',
               width: 30,
               height: 30,
             ),
@@ -80,7 +80,7 @@ class _Screen3State extends State<Screen3> {
                       overflow: TextOverflow.ellipsis,
                     ),
                     onTap: () {
-                      // Navigate to the ArticleDetailScreen
+
                       Navigator.push(
                         context,
                         MaterialPageRoute(
