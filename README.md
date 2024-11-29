@@ -1,6 +1,6 @@
 # NewsPulse Flutter Mobile App
 
-**NewsPulse** is a mobile application built using Flutter that provides real-time news updates. The app fetches breaking news headlines and articles from [NewsAPI](https://newsapi.org/) and displays them in an engaging and user-friendly interface. It features multiple screens, including a welcome page, a news feed, and detailed article views.
+**NewsPulse** is a mobile application built using Flutter that provides real-time news updates. The app fetches news articles from [NewsAPI](https://newsapi.org/) and displays them in an engaging and user-friendly interface.
 
 ## Features
 
@@ -9,6 +9,21 @@
 - **Article Details**: Users can view full article details by tapping on a news item.
 - **Responsive UI**: Adaptive layouts for various screen sizes to ensure a smooth user experience across different devices.
 - **Smooth Navigation**: Seamless navigation between screens using Flutter's routing system.
+
+## Screenshots
+
+### Home Screen
+![Home Screen](assets/images/screenshots/home_screen.png)
+
+### Article Screen
+![Article Screen](assets/images/screenshots/article_screen.png)
+
+### Full Article Screen
+![Full Article Screen](assets/images/screenshots/full_article_screen.png)
+
+### Additional Screens
+![Screen 2](assets/images/screenshots/screen2.png)  
+![Screen 3](assets/images/screenshots/screen3.png)
 
 ## Installation
 
@@ -43,7 +58,7 @@ To get started with **NewsPulse**, follow these steps:
 Contributions are welcome! To contribute to this project:
 
 1. Fork the repository.
-2. Create a new branch:  
+2. Create a new branch:
     ```bash
     git checkout -b feature/YourFeature
     ```
@@ -57,13 +72,13 @@ Contributions are welcome! To contribute to this project:
     ```
 5. Open a pull request to the main repository.
 
-## License
-
-This project is licensed under the [MIT License](LICENSE).
-
 ## Acknowledgments
 
 - **NewsAPI**: The source of news data for this project.
 - **Flutter**: A powerful open-source mobile framework used for building the app.
 
-
+Author
+© 2024 Geofrey Tumwesigye
+Software Engineering student at African Leadership University.
+Email: g.tumwesigy@alustudent.com
+GitHub: g-tumwesigye

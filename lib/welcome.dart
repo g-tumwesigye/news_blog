@@ -6,7 +6,7 @@ class WelcomePage extends StatelessWidget {
     return Scaffold(
       body: Stack(
         children: [
-          // Background Image
+          // Image at the Background
           Container(
             decoration: BoxDecoration(
               image: DecorationImage(
@@ -34,32 +34,28 @@ class WelcomePage extends StatelessWidget {
                       color: Colors.white,
                       fontSize: 32,
                       fontFamily: 'Poppins',
-                      fontStyle: FontStyle.normal,
                       fontWeight: FontWeight.w900,
                     ),
                   ),
                   SizedBox(height: 20),
                   // Start Now Button
-                  Padding(
-                    padding: const EdgeInsets.only(top: 190.0),
-                    child: ElevatedButton(
-                      style: ElevatedButton.styleFrom(
-                        backgroundColor: Color(0xFFCC7722),
-                        padding: EdgeInsets.symmetric(horizontal: 40, vertical: 16),
-                        shape: RoundedRectangleBorder(
-                          borderRadius: BorderRadius.circular(50.0),
-                        ),
+                  ElevatedButton(
+                    style: ElevatedButton.styleFrom(
+                      backgroundColor: Color(0xFFCC7722),
+                      padding: EdgeInsets.symmetric(horizontal: 40, vertical: 16),
+                      shape: RoundedRectangleBorder(
+                        borderRadius: BorderRadius.circular(50.0),
                       ),
-                      onPressed: () {
-                        Navigator.pushNamed(context, '/screen2');
-                      },
-                      child: Text(
-                        'Get started',
-                        style: TextStyle(
-                          color: Colors.white,
-                          fontSize: 18,
-                          fontWeight: FontWeight.bold,
-                        ),
+                    ),
+                    onPressed: () {
+                      Navigator.pushNamed(context, '/screen2');
+                    },
+                    child: Text(
+                      'Get started',
+                      style: TextStyle(
+                        color: Colors.white,
+                        fontSize: 18,
+                        fontWeight: FontWeight.bold,
                       ),
                     ),
                   ),

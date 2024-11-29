@@ -3,7 +3,6 @@ import 'package:flutter/material.dart';
 class Screen2 extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
-    // Get screen dimensions for responsive sizing
     final screenWidth = MediaQuery.of(context).size.width;
     final screenHeight = MediaQuery.of(context).size.height;
 
@@ -58,7 +57,7 @@ class Screen2 extends StatelessWidget {
                 imagePath: 'assets/images/new1.jpg',
                 title: 'Tesla Cybertruck\n',
                 description:
-                '''Cybertruck Gets MASSIVE Upgrades for 2025! From performance boosts to cutting-edge technology, the 2025 Cybertruck is set to dominate the roads like never before. ''',
+                'Cybertruck Gets MASSIVE Upgrades for 2025! From performance boosts to cutting-edge technology, the 2025 Cybertruck is set to dominate the roads like never before. ',
                 screenWidth: screenWidth,
               ),
               SizedBox(height: screenHeight * 0.02),
@@ -74,7 +73,7 @@ class Screen2 extends StatelessWidget {
                 imagePath: 'assets/images/new3.png',
                 title: 'AI Technology\n',
                 description:
-                '''AI has been developing on a very high pace.The field of artificial intelligence is helping research organizations like OpenAI to develop safe and beneficial AI.''',
+                'AI has been developing on a very high pace.The field of artificial intelligence is helping research organizations like OpenAI to develop safe and beneficial AI.',
                 screenWidth: screenWidth,
               ),
             ],
