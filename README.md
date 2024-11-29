@@ -78,7 +78,11 @@ Contributions are welcome! To contribute to this project:
 - **Flutter**: A powerful open-source mobile framework used for building the app.
 
 Author
+
 © 2024 Geofrey Tumwesigye
+
 Software Engineering student at African Leadership University.
+
 Email: g.tumwesigy@alustudent.com
+
 GitHub: g-tumwesigye
